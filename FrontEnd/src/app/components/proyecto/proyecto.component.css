@@ -1,0 +1,46 @@
+.row {
+    margin: 0%;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.contenedor {
+    width: auto;
+}
+
+.parte1, .parte2{
+display: inline-block;
+text-align: justify;
+
+}
+
+.img-proyecto{
+    border-radius: 50%;
+box-shadow: 1px 2px 8px #272727;
+cursor: pointer;
+position: relative;
+bottom: 20px;
+
+}
+
+#titleProyect{
+    background-color: #212529;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.img-proyecto:hover{
+    box-shadow: 1px 8px 8px #272727;
+    position: relative;
+    bottom: 10px;
+}
+
+.tecnoticias{
+position: relative;
+bottom: 9px;
+
+}
+
