@@ -1,0 +1,32 @@
+.row{
+
+    padding: 20px;
+    
+    }
+    
+    div{
+    margin-right: 0%;
+    background: #1b1b1b;
+    color: rgb(221, 221, 221);
+    }
+    
+    h1{
+        background-color: #212529;
+        color: #ffffff;
+        display: inline;
+        text-align: center;
+        padding: 10px;
+    }
+
+    span{
+font-weight: bold;
+font-size: x-large
+
+    }
+
+    ul{
+
+        margin-top: 3%;
+
+
+    }
