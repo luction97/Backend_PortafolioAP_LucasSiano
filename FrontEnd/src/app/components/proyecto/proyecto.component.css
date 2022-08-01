@@ -1,29 +1,33 @@
 .row {
     margin: 0%;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #1A1A1A;
 }
 
 .contenedor {
     width: auto;
 }
 
-.parte1, .parte2{
-display: inline-block;
-text-align: justify;
+.parte1,
+.parte2 {
+    display: inline-block;
+    text-align: justify;
 
 }
 
-.img-proyecto{
+.img-proyecto {
     border-radius: 50%;
-box-shadow: 1px 2px 8px #272727;
-cursor: pointer;
-position: relative;
-bottom: 20px;
+    box-shadow: inset 1px 1px 8px #979797;
+    cursor: pointer;
+    position: relative;
+    bottom: -10px;
+    transition: all .2s linear;
+
+
 
 }
 
-#titleProyect{
+#titleProyect {
     background-color: #212529;
     color: #ffffff;
     text-align: center;
@@ -32,15 +36,15 @@ bottom: 20px;
 
 }
 
-.img-proyecto:hover{
-    box-shadow: 1px 8px 8px #272727;
+.img-proyecto:hover {
+    box-shadow: inset 1px 1px 8px #979797;
+    box-shadow: 1px 1px 8px #979797;
     position: relative;
-    bottom: 10px;
+    bottom: 9px;
 }
 
-.tecnoticias{
-position: relative;
-bottom: 9px;
+h1,p{
+
+color: white;
 
 }
-
