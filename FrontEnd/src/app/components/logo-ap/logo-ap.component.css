@@ -1,0 +1,42 @@
+.row{
+    margin: 0%;
+}
+
+#logoAP {
+    width: 150px;
+
+}
+
+img {
+
+    width: 50px;
+
+}
+
+
+.container{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.redes{
+
+margin-right: 0.5em;
+
+}
+
+
+#linkedin{
+position: relative;
+right: 10%;
+}
+
+#git{
+position: relative;
+right: 6%;
+
+}
+

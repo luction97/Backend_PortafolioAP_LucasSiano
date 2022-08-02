@@ -1,0 +1,23 @@
+.row{
+    background-color: #0B090A;
+    margin: 0%;
+    height: 80px;
+}
+
+footer{
+color: white;
+font-size: 14px;
+display: flex;
+flex-direction: column;
+}
+
+p{
+    text-align: center;
+    position: relative;
+    top: 11px;
+}
+
+footer{
+display: flex;
+flex-direction: column;
+}

@@ -1,0 +1,92 @@
+.row{
+padding: 15px;
+
+}
+
+div{
+    background-color: #0B090A;
+    color: white;
+    margin-right: 0%;
+}
+
+/*Foto de perfil*/
+@media (min-width: 576px){
+
+    
+    #fotoDePerfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 2px 2px 2px grey;
+        left: 4%;
+        top: 540px;
+    }
+    #nombre{
+        position: relative;
+        
+        position: relative;
+        left: 17%;
+    }
+
+    #developer{
+        position: relative;
+        bottom: 5%;
+        left: 15%;
+        
+    }
+
+
+}
+
+@media (max-width: 576px){
+
+    
+    #fotoDePerfil{
+        position: absolute;
+        width: 27%;
+        border-radius: 100%;
+        box-shadow: 2px 2px 2px grey;
+        left: 37%;
+        top: 610px;
+    }
+
+    #nombre{
+        position: relative;
+        
+        position: relative;
+        top: 3%;
+        left: 42%;
+    }
+
+    #developer{
+        position: relative;
+        bottom: 5%;
+        left: 37%;
+
+    }
+
+}
+
+
+/*Etiqueta de nombre*/
+
+#nombre{
+
+font-weight: bold;
+margin-top: 30%;
+
+
+}
+
+#developer{
+
+
+
+}
+
+#sobremi{
+    text-align: center;
+    
+
+}
+
