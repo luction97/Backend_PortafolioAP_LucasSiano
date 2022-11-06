@@ -9,7 +9,7 @@ import { persona } from '../model/persona.model';
 export class PersonaService {
 
   // URL genérica por defecto
-  URL = 'http://localhost8080/personas/';
+  URL = 'http://localhost:8080/personas/';
 
 
 
