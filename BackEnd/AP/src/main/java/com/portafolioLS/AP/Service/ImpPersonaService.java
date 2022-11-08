@@ -10,8 +10,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class ImpPersonaService implements IPersonaService {
 
-    @Autowired
-    IPersonaRepository IPersonaRepository;
+    @Autowired IPersonaRepository IPersonaRepository;
 
     @Override
     public List<Persona> getPersona() {
@@ -39,7 +38,7 @@ public class ImpPersonaService implements IPersonaService {
                                           //busca por id   sino devuelve nulo
         Persona persona = new Persona();
                 
-    IPersonaRepository.findById(id).orElse(null);
+    persona = IPersonaRepository.findById(id).orElse(null);
         
         return persona;
 

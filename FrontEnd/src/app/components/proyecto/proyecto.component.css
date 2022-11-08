@@ -17,7 +17,7 @@
 
 .img-proyecto {
     border-radius: 50%;
-    box-shadow: inset 1px 1px 8px #979797;
+    box-shadow: 3px 3px 1px #343434;
     cursor: pointer;
     position: relative;
     bottom: -10px;

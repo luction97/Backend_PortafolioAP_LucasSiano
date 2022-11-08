@@ -2,8 +2,6 @@ package com.portafolioLS.AP.Controller;
 
 import com.portafolioLS.AP.Entity.Persona;
 import com.portafolioLS.AP.Interface.IPersonaService;
-import com.portafolioLS.AP.Repository.IPersonaRepository;
-import com.portafolioLS.AP.Service.ImpPersonaService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -20,11 +18,10 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(origins = "http://localhost:4200")
 public class PersonaController {
 
-    @Autowired
-    IPersonaService iPersonaService;
+    @Autowired IPersonaService iPersonaService;
 
     //La url le dice al frontend que tipo de método utilizar
-    @GetMapping("personas/traer")
+    @GetMapping("/personas/traer")
     public List<Persona> getPersona() {
         return iPersonaService.getPersona();
     }
@@ -67,9 +64,8 @@ public class PersonaController {
 
     
     @GetMapping("/personas/traer/perfil")
-    public Persona findPersona(@PathVariable long id) {
-
-        return iPersonaService.findPersona(id);
+    public Persona findpersona(){
+        return iPersonaService.findPersona((long)1);
     }
 
 }

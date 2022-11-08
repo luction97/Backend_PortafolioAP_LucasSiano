@@ -9,7 +9,7 @@ import { persona } from '../model/persona.model';
 export class PersonaService {
 
   // URL genérica por defecto
-  URL = 'http://localhost8080/personas/';
+  URL = 'http://localhost:8080/personas/';
 
 
 
@@ -18,7 +18,7 @@ export class PersonaService {
 
 
   //Angular utiliza el 'Observable' para hacer peticiones asincronas
-  public getPersona(): Observable<persona> {
+  public getPersona():Observable<persona> {
 
 
     return this.http.get<persona>(this.URL+'traer/perfil');

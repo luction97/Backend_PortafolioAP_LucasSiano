@@ -3,8 +3,9 @@
 .image{
     background:url('../../../assets/codigo2.png'),linear-gradient(233deg, #e56420, #c22525, #3d9c31, #37bbde);
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-size:cover;
+    background-position: 0%;
     background-blend-mode: hard-light;
     animation: hue-rotate 3s linear infinite;
 }
