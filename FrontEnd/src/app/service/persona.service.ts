@@ -17,7 +17,7 @@ export class PersonaService {
   constructor(private http: HttpClient) { }
 
 
-  //Angular utiliza el 'Observable' para hacer peticiones asincronas
+  //Utiliza el 'Observable' para hacer peticiones asincronas
   public getPersona():Observable<persona> {
 
 
