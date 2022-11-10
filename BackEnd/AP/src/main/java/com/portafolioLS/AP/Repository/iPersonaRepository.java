@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 
 @Repository                                             //Clase  tipoDeID
-public interface IPersonaRepository extends JpaRepository<Persona, Long>{
+public interface iPersonaRepository extends JpaRepository<Persona, Long>{
 
     
     
