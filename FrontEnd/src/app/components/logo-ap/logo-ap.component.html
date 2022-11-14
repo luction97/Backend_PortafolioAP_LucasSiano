@@ -7,7 +7,8 @@
         <div class="redes">
             <a href="https://www.linkedin.com/in/lucas-siano/" target="_blank"> <img src="../../../assets/linkedinBlanco.png" alt="linkedin" id="linkedin" target="_blank"></a>
             <a  href="https://github.com/luction97" target="_blank"> <img src="../../../assets/GitBlanco2.png" alt="GitHub" id="git" ></a>
-            <button   type="button" class="btn btn-outline-light" (click)="login()"> ENTRAR</button>
+            <button   type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESAR</button>
+            <button   type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">Cerrar sesion</button>
         </div>
     </div>
 </div>
