@@ -6,23 +6,24 @@
         <div class="  text-white" style="border-radius: 1rem;">
           <div class="card-body p-5 text-center">
             <div class="login-box">
-              <h2>Acceso</h2>
+              <h2>Bienvenido/a</h2>
               <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
                 <div class="user-box">
-                  <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control form-control-lg"  [(ngModel)]="nombreUsuario" required >
-                  <label class="form-label" for="nombreUsuario">Usuario</label>
+                  <input type="email" id="nombreUsuario" name="nombreUsuario"  [(ngModel)]="nombreUsuario" required >
+                  <label for="nombreUsuario">Usuario</label>
                 </div>
-                <div class="user-box">
-                  <input type="password" name="" required="">
-                  <label>Contraseña</label>
+                <div class="user-box form-outline form-white mb-4">
+                  <input type="password" id="password" name="password" class="form-control form-control-lg" [(ngModel)]="password"
+                  required>
+                  <label class="form-label" for="password">Contraseña</label>
                 </div>
-                <a href="#">
+                <button class="btn btn-lg px-5" type="submit"> <a>
                   <span></span>
                   <span></span>
                   <span></span>
                   <span></span>
                   Entrar
-                </a>
+                </a></button>
               </form>
             </div>          
           </div>
